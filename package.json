@@ -1,0 +1,28 @@
+{
+  "name": "fmaseq",
+  "version": "0.1.0",
+  "description": "",
+  "main": "findprot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udp/fmaseq.git"
+  },
+  "author": "James Alastair McLaughlin <j.a.mclaughlin@ncl.ac.uk>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/udp/fmaseq/issues"
+  },
+  "homepage": "https://github.com/udp/fmaseq#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "level": "^3.0.0",
+    "leveldown": "^3.0.0",
+    "levelup": "^2.0.2",
+    "sha1": "^1.1.1"
+  }
+}
