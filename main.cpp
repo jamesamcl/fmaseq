@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     assert(status.ok());
 
 
-    gzFile fasta = gzopen("../uniprot_trembl.fasta.gz", "rb");
+    gzFile fasta = gzopen(argv[1], "rb");
 
     if(fasta == NULL)
     {
